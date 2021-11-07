@@ -1,0 +1,38 @@
+
+.content{
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    display: flex;
+    width: 500px;
+    height: 250px;
+    background-color: rgb(150, 91, 206);
+    opacity: 0.7;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    box-shadow: 0 0 15px 0 rgb(36, 33, 36);
+}
+form{
+    align-items: center;
+    margin-top: 1%;
+    height: 130px;
+    width: 180px;
+}
+input{
+    height: 20%;
+    border-radius: 15px;
+    text-align: center;
+}
+input::placeholder{
+    text-align: center;
+}
+.btn{
+    height: 12%;
+    width: 27%;
+    margin-top: -24px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
